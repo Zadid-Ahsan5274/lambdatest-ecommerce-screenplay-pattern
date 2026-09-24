@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+allure-results/
+allure-report/
+artifacts/
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables & local secrets
+.env
+.env.local
+*.podspec.lock
+
+# Build and log folders
+dist/
+build/
+*.log
+
+# IDE and OS specific files
+.vscode/
+.DS_Store
+Thumbs.db
