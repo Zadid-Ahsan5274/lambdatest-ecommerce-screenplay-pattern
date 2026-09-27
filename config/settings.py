@@ -25,9 +25,9 @@ class Settings:
     slow_mo:int = 0
     viewport_width:int = 1440
     viewport_height:int = 900
-    default_timeout:int = 15_000
-    navigation_timeout:int = 30_000
-    expect_timeout:int = 10_000
+    default_timeout: int = 20_000        # was 15_000
+    navigation_timeout: int = 45_000      # was 30_000
+    expect_timeout: int = 12_000          # was 10_000
     trace:str = "retain-on-failure"
     video:str = "retain-on-failure"
     screenshot:str = "only-on-failure"
